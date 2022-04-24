@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">My Movies App</string>
+    <string name="created_by">Created by Digdaya R</string>
+
+    <string name="favorite">Favorite</string>
+    <string name="search">Search</string>
+
+    <string name="sample_title">Turning Red</string>
+    <string name="sample_score">74%</string>
+    <string name="sample_lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consectetur diam eget volutpat porta. Sed dictum id mi in facilisis. Suspendisse vehicula convallis efficitur. Nunc imperdiet velit ut est hendrerit, vel cursus libero pellentesque. Sed varius vel orci in finibus. Etiam eu enim justo. Duis tempor ipsum in sem aliquam, id vestibulum odio imperdiet. Curabitur condimentum sem lacus, nec mattis diam pharetra nec. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; In ac erat at lorem mattis varius. Etiam eu risus metus.</string>
+    <string name="sample_release">01 March 2022</string>
+    <string name="description">Description</string>
+
+    <string name="url_poster">https://image.tmdb.org/t/p/w500%s</string>
+    <string name="other">Other</string>
+    <string name="language">Language</string>
+    <string name="en">En</string>
+    <string name="popularity">Popularity</string>
+    <string name="_198_239">198.239</string>
+
+    <string name="movie">Movie</string>
+    <string name="title_favorite">Favorite</string>
+    <string name="there_is_an_error">There is an Error</string>
+    <string name="search_movie">Search Movie</string>
+    <string name="desc_search_image">Search Image</string>
+    <string name="image_empty">Image Empty</string>
+    <string name="not_found_movie">Not Found</string>
+    <string name="image_logo">Image Logo</string>
+    <string name="symbol_colon">:</string>
+    <string name="desc_image_poster">Image Poster</string>
+
+
+</resources>
