@@ -39,6 +39,9 @@ ext {
     lifecycle_version = "2.4.1"
     glideVersion = '4.11.0'
     koin_version = "2.1.6"
+    gson_retrofit = '2.9.0'
+    sql_chiper = '4.4.0'
+    sql_lite = '2.2.0'
 }
 
 task clean(type: Delete) {

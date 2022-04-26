@@ -2,9 +2,9 @@ package com.rajabd.core.data.source.remote
 
 import android.content.ContentValues.TAG
 import android.util.Log
+import com.rajabd.core.BuildConfig
 import com.rajabd.core.data.source.remote.network.ApiService
 import com.rajabd.core.data.source.remote.response.MovieResponse
-import com.rajabd.core.utils.NetworkInfo.API_KEY
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flow
@@ -12,7 +12,7 @@ import kotlinx.coroutines.flow.flowOn
 
 class RemoteDataSource(private val apiService: ApiService) {
 
-    private val apiKey = API_KEY
+    private val apiKey = BuildConfig.API_KEY
 
     suspend fun getMovies(): Flow<ApiResponse<List<MovieResponse>>> {
         return flow {

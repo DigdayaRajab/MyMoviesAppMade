@@ -81,8 +81,9 @@ class SearchFragment : Fragment() {
         }
     }
 
-    override fun onDestroy() {
-        super.onDestroy()
+    override fun onDestroyView() {
+        fragmentSearchBinding?.rvMovie?.adapter = null
         _binding = null
+        super.onDestroyView()
     }
 }
